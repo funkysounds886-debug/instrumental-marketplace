@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout | Beat Vault Afrika</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container detail-shell">
+      <header class="topbar topbar-simple">
+        <div class="topbar-inner">
+          <div class="brand-wrap">
+            <div class="brand-mark">BV</div>
+            <div class="brand-text">
+              <span class="brand-name">Beat Vault</span>
+              <span class="brand-location">AFRIKA</span>
+            </div>
+          </div>
+          <nav class="main-nav" aria-label="Main nav">
+            <a href="index.html">Home</a>
+            <a href="beat-detail.html">Beat</a>
+            <a href="producer-dashboard.html">Dashboard</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="checkout-page">
+        <section class="checkout-grid">
+          <div class="checkout-panel">
+            <div class="section-head narrow">
+              <div>
+                <span class="section-kicker">Checkout</span>
+                <h3>License details</h3>
+              </div>
+            </div>
+
+            <form class="checkout-form">
+              <div class="form-grid two-col">
+                <label>
+                  Full name
+                  <input type="text" value="Amani Udo" />
+                </label>
+
+                <label>
+                  Email
+                  <input type="email" value="amani@email.com" />
+                </label>
+
+                <label class="full-span">
+                  Artist/project name
+                  <input type="text" value="Amani Udo - Midnight Session" />
+                </label>
+
+                <label>
+                  Country
+                  <select>
+                    <option>Nigeria</option>
+                    <option>Kenya</option>
+                    <option>Ghana</option>
+                    <option>South Africa</option>
+                  </select>
+                </label>
+
+                <label>
+                  Payment method
+                  <select>
+                    <option>Card</option>
+                    <option>Bank transfer</option>
+                    <option>Mobile money</option>
+                  </select>
+                </label>
+              </div>
+            </form>
+          </div>
+
+          <aside class="order-panel">
+            <div class="section-head narrow">
+              <div>
+                <span class="section-kicker">Order</span>
+                <h3>License summary</h3>
+              </div>
+            </div>
+
+            <div class="order-item">
+              <div class="mini-cover c1"></div>
+              <div>
+                <strong>Midnight Heat</strong>
+                <span>Rae K.</span>
+              </div>
+            </div>
+
+            <div class="order-meta">
+              <div><span>Package</span><strong>Lease</strong></div>
+              <div><span>Price</span><strong>$49</strong></div>
+              <div><span>Platform fee</span><strong>$2.45</strong></div>
+              <div class="total-row"><span>Total</span><strong>$51.45</strong></div>
+            </div>
+
+            <button class="primary-btn full">Complete purchase</button>
+            <a href="beat-detail.html" class="ghost-btn full">Back to beat</a>
+          </aside>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
