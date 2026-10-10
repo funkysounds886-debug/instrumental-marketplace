@@ -6,7 +6,7 @@
     <title>Beat Vault Afrika</title>
     <meta
       name="description"
-      content="Beat Vault Afrika is the free instrumental marketplace for African producers, fans, and artists. Discover tagged demo beats, buy commercial licenses, and support creators."
+      content="Beat Vault Afrika is an African instrumental marketplace for free demos, beat discovery, and commercial licensing."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,324 +14,359 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="page-shell">
+    <div class="site-shell">
       <header class="topbar">
         <div class="container topbar-inner">
           <div class="brand-wrap">
             <div class="brand-mark">BV</div>
             <div class="brand-text">
               <span class="brand-name">Beat Vault</span>
-              <span class="brand-location">Afrika</span>
+              <span class="brand-location">AFRIKA</span>
             </div>
           </div>
 
-          <nav class="main-nav" aria-label="Main navigation">
+          <nav class="main-nav" aria-label="Main nav">
             <a href="#discover">Discover</a>
+            <a href="#library">Library</a>
             <a href="#producers">Producers</a>
             <a href="#licenses">Licenses</a>
-            <a href="#how-it-works">How It Works</a>
+            <a href="upload.html">Upload</a>
           </nav>
 
           <div class="nav-actions">
-            <button class="ghost-btn">Login</button>
-            <button class="primary-btn">Upload Beat</button>
+            <a href="upload.html" class="ghost-btn">Log in</a>
+            <a href="upload.html" class="primary-btn">Upload Beat</a>
           </div>
         </div>
       </header>
 
-      <main>
-        <section class="hero">
-          <div class="container hero-grid">
-            <div class="hero-copy">
-              <p class="eyebrow">African beats. Real licenses.</p>
-              <h1>Free demos. <span>Commercial rights.</span> Built for creators.</h1>
-              <p class="hero-text">
-                Stream free tagged instrumentals, discover new producers, and buy the rights you need to use beats commercially — without the usual friction.
-              </p>
+      <main class="container main-layout">
+        <section class="hero-panel">
+          <div class="hero-left">
+            <div class="hero-badge">Featured</div>
+            <h1>Find the next sound for your project.</h1>
+            <p>
+              Stream tagged demos for free, discover African producers, and buy
+              the commercial license you need when you’re ready to release.
+            </p>
 
-              <div class="hero-actions">
-                <a class="primary-btn large" href="#discover">Explore Beats</a>
-                <a class="secondary-btn large" href="#licenses">See Licensing</a>
+            <div class="hero-actions">
+              <a href="#discover" class="primary-btn">Browse Beats</a>
+              <a href="#licenses" class="ghost-btn">View Licenses</a>
+            </div>
+
+            <div class="mini-stats">
+              <div>
+                <strong>12k+</strong>
+                <span>beats</span>
+              </div>
+              <div>
+                <strong>4.9/5</strong>
+                <span>rating</span>
+              </div>
+              <div>
+                <strong>95%</strong>
+                <span>to producers</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-right">
+            <div class="now-playing-card">
+              <div class="album-visual">
+                <div class="album-visual-inner"></div>
+              </div>
+              <div class="now-playing-top">
+                <div>
+                  <div class="music-label">NOW PLAYING</div>
+                  <h2>Midnight Heat</h2>
+                  <span>Rae K.</span>
+                </div>
+                <button class="play-btn" aria-label="Play">▶</button>
+              </div>
+              <div class="wave-form" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+              <div class="now-playing-actions">
+                <a href="#library" class="ghost-btn small">Demo</a>
+                <a href="#licenses" class="primary-btn small">Buy License</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="streaming-section" id="discover">
+          <div class="section-head">
+            <div>
+              <span class="section-kicker">Discover</span>
+              <h3>For You</h3>
+            </div>
+            <div class="chip-row">
+              <button class="chip active" type="button">All</button>
+              <button class="chip" type="button">Afrobeats</button>
+              <button class="chip" type="button">Amapiano</button>
+              <button class="chip" type="button">Gospel</button>
+              <button class="chip" type="button">Drill</button>
+            </div>
+          </div>
+
+          <div class="feed-layout">
+            <div class="feature-stack">
+              <article class="large-feature">
+                <div class="feature-cover cover-one"></div>
+                <div class="feature-meta">
+                  <div>
+                    <div class="music-label">FEATURED MIX</div>
+                    <h4>City Drive</h4>
+                  </div>
+                  <a href="#library" class="primary-btn small">Play</a>
+                </div>
+              </article>
+
+              <article class="large-feature alt">
+                <div class="feature-cover cover-two"></div>
+                <div class="feature-meta">
+                  <div>
+                    <div class="music-label">NEW DROP</div>
+                    <h4>Night Life</h4>
+                  </div>
+                  <a href="#library" class="ghost-btn small">Preview</a>
+                </div>
+              </article>
+            </div>
+
+            <aside class="trending-panel">
+              <div class="panel-head">
+                <span class="section-kicker">Trending</span>
+                <a href="#library">See All</a>
               </div>
 
-              <ul class="hero-stats" aria-label="Platform stats">
+              <ul class="trend-list">
                 <li>
-                  <strong>12k+</strong>
-                  <span>Beats uploaded</span>
+                  <div class="trend-cover c1"></div>
+                  <div class="trend-copy">
+                    <strong>Traffic</strong>
+                    <span>Shay M.</span>
+                  </div>
+                  <button class="play-dot" aria-label="Play trace">▶</button>
                 </li>
                 <li>
-                  <strong>4.9/5</strong>
-                  <span>Producer rating</span>
+                  <div class="trend-cover c2"></div>
+                  <div class="trend-copy">
+                    <strong>Vibe Shift</strong>
+                    <span>Nala B.</span>
+                  </div>
+                  <button class="play-dot" aria-label="Play trace">▶</button>
                 </li>
                 <li>
-                  <strong>95%</strong>
-                  <span>To producers</span>
+                  <div class="trend-cover c3"></div>
+                  <div class="trend-copy">
+                    <strong>Sunday Praise</strong>
+                    <span>Lina S.</span>
+                  </div>
+                  <button class="play-dot" aria-label="Play trace">▶</button>
+                </li>
+                <li>
+                  <div class="trend-cover c4"></div>
+                  <div class="trend-copy">
+                    <strong>After Hours</strong>
+                    <span>Juno Fi</span>
+                  </div>
+                  <button class="play-dot" aria-label="Play trace">▶</button>
                 </li>
               </ul>
-            </div>
-
-            <div class="hero-visual" aria-label="Featured beat card">
-              <div class="visual-card">
-                <div class="album-art">
-                  <div class="album-glow"></div>
-                  <div class="album-badges">
-                    <span>AFROBEAT</span>
-                    <span>104 BPM</span>
-                  </div>
-                </div>
-
-                <div class="track-row">
-                  <div class="track-meta">
-                    <span class="track-title">Midnight Heat</span>
-                    <span class="track-artist">Rae K.</span>
-                  </div>
-                  <button class="mini-play" aria-label="Play demo">▶</button>
-                </div>
-
-                <div class="waveform" aria-hidden="true">
-                  <span></span><span></span><span></span><span></span><span></span>
-                  <span></span><span></span><span></span><span></span><span></span>
-                  <span></span><span></span><span></span><span></span><span></span>
-                </div>
-
-                <div class="track-actions">
-                  <button class="ghost-btn small">Demo</button>
-                  <button class="primary-btn small">Buy License</button>
-                </div>
-              </div>
-            </div>
+            </aside>
           </div>
         </section>
 
-        <section class="discover" id="discover">
-          <div class="container">
-            <div class="section-header split-header">
-              <div>
-                <p class="eyebrow">Discover</p>
-                <h2>Trending instrumentals</h2>
-              </div>
-              <div class="filter-group" aria-label="Beat genres filters">
-                <button class="chip active">All</button>
-                <button class="chip">Afrobeats</button>
-                <button class="chip">Amapiano</button>
-                <button class="chip">Gospel</button>
-                <button class="chip">Drill</button>
-              </div>
-            </div>
-
-            <div class="beat-grid">
-              <article class="beat-card">
-                <div class="beat-cover cover-one"><span>Demo</span></div>
-                <div class="beat-info">
-                  <div class="beat-head">
-                    <div>
-                      <h3>Midnight Heat</h3>
-                      <p>Rae K.</p>
-                    </div>
-                    <span class="tag">Afrobeats</span>
-                  </div>
-                  <div class="beat-meta">
-                    <span>104 BPM</span>
-                    <span>3:42</span>
-                    <span>Clean</span>
-                  </div>
-                  <div class="beat-actions">
-                    <button class="ghost-btn small">Preview</button>
-                    <button class="primary-btn small">License</button>
-                  </div>
-                </div>
-              </article>
-
-              <article class="beat-card">
-                <div class="beat-cover cover-two"><span>Demo</span></div>
-                <div class="beat-info">
-                  <div class="beat-head">
-                    <div>
-                      <h3>Voices in the City</h3>
-                      <p>J. Moyo</p>
-                    </div>
-                    <span class="tag alt">Amapiano</span>
-                  </div>
-                  <div class="beat-meta">
-                    <span>118 BPM</span>
-                    <span>4:05</span>
-                    <span>High Energy</span>
-                  </div>
-                  <div class="beat-actions">
-                    <button class="ghost-btn small">Preview</button>
-                    <button class="primary-btn small">License</button>
-                  </div>
-                </div>
-              </article>
-
-              <article class="beat-card">
-                <div class="beat-cover cover-three"><span>Demo</span></div>
-                <div class="beat-info">
-                  <div class="beat-head">
-                    <div>
-                      <h3>Sunday Prayer</h3>
-                      <p>Lina S.</p>
-                    </div>
-                    <span class="tag soft">Gospel</span>
-                  </div>
-                  <div class="beat-meta">
-                    <span>82 BPM</span>
-                    <span>3:18</span>
-                    <span>Warm</span>
-                  </div>
-                  <div class="beat-actions">
-                    <button class="ghost-btn small">Preview</button>
-                    <button class="primary-btn small">License</button>
-                  </div>
-                </div>
-              </article>
-
-              <article class="beat-card">
-                <div class="beat-cover cover-four"><span>Demo</span></div>
-                <div class="beat-info">
-                  <div class="beat-head">
-                    <div>
-                      <h3>Night Shift</h3>
-                      <p>Juno Fi</p>
-                    </div>
-                    <span class="tag warn">Drill</span>
-                  </div>
-                  <div class="beat-meta">
-                    <span>136 BPM</span>
-                    <span>2:56</span>
-                    <span>Dark</span>
-                  </div>
-                  <div class="beat-actions">
-                    <button class="ghost-btn small">Preview</button>
-                    <button class="primary-btn small">License</button>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section class="producers" id="producers">
-          <div class="container">
-            <div class="section-header">
-              <p class="eyebrow">Producers</p>
-              <h2>Built to help creators earn</h2>
-            </div>
-
-            <div class="producer-layout">
-              <div class="producer-card main">
-                <div class="producer-avatar">RS</div>
-                <div class="producer-copy">
-                  <h3>Rae Studios</h3>
-                  <p>Known for melodic Afro-pop and radio-ready hooks.</p>
-                  <div class="producer-metrics">
-                    <span>2.3k monthly plays</span>
-                    <span>14 active licenses</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="producer-card">
-                <div class="mini-stat">
-                  <strong>95%</strong>
-                  <span>Producer payout</span>
-                </div>
-                <div class="mini-stat">
-                  <strong>5%</strong>
-                  <span>Platform fee</span>
-                </div>
-                <div class="mini-stat">
-                  <strong>24/7</strong>
-                  <span>Beat visibility</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="licenses" id="licenses">
-          <div class="container">
-            <div class="section-header center">
-              <p class="eyebrow">Licensing</p>
-              <h2>Choose the right commercial option</h2>
-            </div>
-
-            <div class="pricing-grid">
-              <div class="pricing-card">
-                <h3>Demo</h3>
-                <div class="price">Free</div>
-                <ul>
-                  <li>Tagged free download</li>
-                  <li>Preview for artists and fans</li>
-                  <li>Not for commercial use</li>
-                </ul>
-                <button class="ghost-btn full">Download Demo</button>
-              </div>
-
-              <div class="pricing-card featured">
-                <div class="badge">Most Popular</div>
-                <h3>Lease</h3>
-                <div class="price">$49</div>
-                <ul>
-                  <li>Use in singles or projects</li>
-                  <li>Limited commercial release</li>
-                  <li>One artist / one project</li>
-                </ul>
-                <button class="primary-btn full">Buy Lease</button>
-              </div>
-
-              <div class="pricing-card">
-                <h3>Unlimited</h3>
-                <div class="price">$199</div>
-                <ul>
-                  <li>Commercial release rights</li>
-                  <li>Global distribution</li>
-                  <li>Priority support</li>
-                </ul>
-                <button class="ghost-btn full">Buy License</button>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="how-it-works" id="how-it-works">
-          <div class="container">
-            <div class="section-header center">
-              <p class="eyebrow">How it works</p>
-              <h2>Simple for artists, fans, and producers</h2>
-            </div>
-
-            <div class="steps-grid">
-              <div class="step-card">
-                <span class="step-number">01</span>
-                <h3>Upload</h3>
-                <p>Producers upload beats with free demo versions and clear license packages.</p>
-              </div>
-
-              <div class="step-card">
-                <span class="step-number">02</span>
-                <h3>Preview</h3>
-                <p>Fans stream and download tagged demos free, then discover what they need.</p>
-              </div>
-
-              <div class="step-card">
-                <span class="step-number">03</span>
-                <h3>Buy</h3>
-                <p>Artists purchase the correct commercial license, and the platform pays producers fairly.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="cta">
-          <div class="container cta-box">
+        <section class="library-section" id="library">
+          <div class="section-head">
             <div>
-              <p class="eyebrow">Join the platform</p>
-              <h2>Start building the next African soundwave.</h2>
+              <span class="section-kicker">Library</span>
+              <h3>Fresh uploads</h3>
             </div>
-            <div class="cta-actions">
-              <button class="primary-btn large">Become a Producer</button>
-              <button class="secondary-btn large">Explore Library</button>
+          </div>
+
+          <div class="beat-list">
+            <article class="beat-row">
+              <div class="beat-row-cover c1"></div>
+              <div class="beat-row-info">
+                <strong>Midnight Heat</strong>
+                <span>Rae K.</span>
+              </div>
+              <div class="beat-row-meta">
+                <span>104 BPM</span>
+                <span>3:42</span>
+              </div>
+              <div class="beat-row-actions">
+                <a href="#discover" class="ghost-btn small">Preview</a>
+                <a href="#licenses" class="primary-btn small">License</a>
+              </div>
+            </article>
+
+            <article class="beat-row">
+              <div class="beat-row-cover c2"></div>
+              <div class="beat-row-info">
+                <strong>Voices in the City</strong>
+                <span>J. Moyo</span>
+              </div>
+              <div class="beat-row-meta">
+                <span>118 BPM</span>
+                <span>4:05</span>
+              </div>
+              <div class="beat-row-actions">
+                <a href="#discover" class="ghost-btn small">Preview</a>
+                <a href="#licenses" class="primary-btn small">License</a>
+              </div>
+            </article>
+
+            <article class="beat-row">
+              <div class="beat-row-cover c3"></div>
+              <div class="beat-row-info">
+                <strong>Sunday Prayer</strong>
+                <span>Lina S.</span>
+              </div>
+              <div class="beat-row-meta">
+                <span>82 BPM</span>
+                <span>3:18</span>
+              </div>
+              <div class="beat-row-actions">
+                <a href="#discover" class="ghost-btn small">Preview</a>
+                <a href="#licenses" class="primary-btn small">License</a>
+              </div>
+            </article>
+
+            <article class="beat-row">
+              <div class="beat-row-cover c4"></div>
+              <div class="beat-row-info">
+                <strong>Night Shift</strong>
+                <span>Juno Fi</span>
+              </div>
+              <div class="beat-row-meta">
+                <span>136 BPM</span>
+                <span>2:56</span>
+              </div>
+              <div class="beat-row-actions">
+                <a href="#discover" class="ghost-btn small">Preview</a>
+                <a href="#licenses" class="primary-btn small">License</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="producers-section" id="producers">
+          <div class="section-head">
+            <div>
+              <span class="section-kicker">Producers</span>
+              <h3>Top creators</h3>
+            </div>
+          </div>
+
+          <div class="producer-grid">
+            <article class="producer-card">
+              <div class="producer-avatar">RS</div>
+              <div class="producer-content">
+                <h4>Rae Studios</h4>
+                <p>Afro-pop • melodic • radio-ready</p>
+                <div class="producer-metrics">
+                  <span>2.3k plays</span>
+                  <span>14 licenses</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="producer-card">
+              <div class="producer-avatar alt">NB</div>
+              <div class="producer-content">
+                <h4>Nala Beats</h4>
+                <p>Amapiano • dance • club-ready</p>
+                <div class="producer-metrics">
+                  <span>1.8k plays</span>
+                  <span>9 licenses</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="producer-card">
+              <div class="producer-avatar gold">LS</div>
+              <div class="producer-content">
+                <h4>Lina Sound</h4>
+                <p>Gospel • soulful • warm</p>
+                <div class="producer-metrics">
+                  <span>1.2k plays</span>
+                  <span>7 licenses</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="features-section">
+          <div class="section-head center">
+            <div>
+              <span class="section-kicker">Why Beat Vault</span>
+              <h3>Everything a creator needs</h3>
+            </div>
+          </div>
+          <div class="features-grid">
+            <div class="feature-box">
+              <h4>Free demos</h4>
+              <p>Fans can stream and download tagged demos without paying, while producers still get exposure.</p>
+            </div>
+            <div class="feature-box">
+              <h4>Clear licensing</h4>
+              <p>Every beat has a proper commercial path, so artists know exactly what they’re buying.</p>
+            </div>
+            <div class="feature-box">
+              <h4>Creator payouts</h4>
+              <p>Producers keep a larger share of each sale, with the platform taking the agreed 5% commission.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="licenses-section" id="licenses">
+          <div class="section-head center">
+            <div>
+              <span class="section-kicker">Licensing</span>
+              <h3>Transparent pricing for artists</h3>
+            </div>
+          </div>
+
+          <div class="pricing-grid">
+            <div class="price-card">
+              <h4>Demo</h4>
+              <div class="price">Free</div>
+              <ul>
+                <li>Tagged free download</li>
+                <li>Preview only</li>
+                <li>Not for commercial use</li>
+              </ul>
+              <a href="upload.html" class="ghost-btn full">Download Demo</a>
+            </div>
+
+            <div class="price-card featured">
+              <div class="featured-pill">Popular</div>
+              <h4>Lease</h4>
+              <div class="price">$49</div>
+              <ul>
+                <li>Single project use</li>
+                <li>Limited commercial release</li>
+                <li>One artist / one track</li>
+              </ul>
+              <a href="upload.html" class="primary-btn full">Buy Lease</a>
+            </div>
+
+            <div class="price-card">
+              <h4>Unlimited</h4>
+              <div class="price">$199</div>
+              <ul>
+                <li>Commercial release rights</li>
+                <li>Global use</li>
+                <li>Priority support</li>
+              </ul>
+              <a href="upload.html" class="ghost-btn full">Buy License</a>
             </div>
           </div>
         </section>
@@ -339,26 +374,23 @@
 
       <footer class="footer">
         <div class="container footer-inner">
-          <div>
-            <div class="brand-wrap footer-brand">
-              <div class="brand-mark">BV</div>
-              <div class="brand-text">
-                <span class="brand-name">Beat Vault</span>
-                <span class="brand-location">Afrika</span>
-              </div>
+          <div class="brand-wrap footer-brand">
+            <div class="brand-mark">BV</div>
+            <div class="brand-text">
+              <span class="brand-name">Beat Vault</span>
+              <span class="brand-location">AFRIKA</span>
             </div>
           </div>
 
           <div class="footer-links">
             <a href="#discover">Discover</a>
-            <a href="#licenses">Licenses</a>
+            <a href="#library">Library</a>
             <a href="#producers">Producers</a>
-            <a href="#how-it-works">How it works</a>
+            <a href="#licenses">Licenses</a>
+            <a href="upload.html">Upload</a>
           </div>
 
-          <div class="footer-copy">
-            © 2026 Beat Vault Afrika
-          </div>
+          <div class="footer-note">© 2026 Beat Vault Afrika</div>
         </div>
       </footer>
     </div>

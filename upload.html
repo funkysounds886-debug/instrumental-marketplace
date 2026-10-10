@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload Your Beat | Beat Vault Afrika</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container page-shell">
+      <header class="topbar" style="position: static; border: 1px solid var(--line); border-radius: 18px; margin-bottom: 26px;">
+        <div class="topbar-inner" style="min-height: 68px; padding: 0 18px;">
+          <div class="brand-wrap">
+            <div class="brand-mark">BV</div>
+            <div class="brand-text">
+              <span class="brand-name">Beat Vault</span>
+              <span class="brand-location">AFRIKA</span>
+            </div>
+          </div>
+          <nav class="main-nav" aria-label="Main nav">
+            <a href="index.html">Home</a>
+            <a href="index.html#library">Library</a>
+            <a href="index.html#licenses">Licenses</a>
+          </nav>
+        </div>
+      </header>
+
+      <h1>Upload your beat</h1>
+      <p>Share your instrumental with the community, set your demo catalog, and sell the right commercial license to the right artist.</p>
+
+      <form class="upload-panel">
+        <div class="form-grid">
+          <label>
+            Beat title
+            <input type="text" value="Midnight Motion" />
+          </label>
+
+          <label>
+            Producer name
+            <input type="text" value="Rae K" />
+          </label>
+
+          <label>
+            Genre
+            <select>
+              <option>Afrobeats</option>
+              <option>Amapiano</option>
+              <option>Gospel</option>
+              <option>Drill</option>
+            </select>
+          </label>
+
+          <label>
+            BPM
+            <input type="text" value="104" />
+          </label>
+
+          <label class="full-span">
+            Beat description
+            <textarea>Vibrant, clean, melodic instrumental made for late-night playlists and radio-ready hooks.</textarea>
+          </label>
+
+          <label>
+            Demo file
+            <input type="file" />
+          </label>
+
+          <label>
+            License package
+            <select>
+              <option>Lease</option>
+              <option>Unlimited</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="upload-actions">
+          <a href="index.html" class="ghost-btn">Cancel</a>
+          <button type="submit" class="primary-btn">Submit beat</button>
+        </div>
+      </form>
+
+      <section class="license-summary">
+        <h3>How producer payouts work</h3>
+        <ul>
+          <li>Fans can download a free demo with producer tag.</li>
+          <li>Artists buy the commercial license they need.</li>
+          <li>Producers receive 95% of the sale.</li>
+          <li>The platform receives 5% commission.</li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
