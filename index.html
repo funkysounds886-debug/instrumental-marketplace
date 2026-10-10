@@ -28,7 +28,7 @@
           <nav class="main-nav" aria-label="Main nav">
             <a href="#discover">Discover</a>
             <a href="#library">Library</a>
-            <a href="#producers">Producers</a>
+            <a href="#trending">Trending</a>
             <a href="#licenses">Licenses</a>
             <a href="upload.html">Upload</a>
           </nav>
@@ -43,16 +43,15 @@
       <main class="container main-layout">
         <section class="hero-panel">
           <div class="hero-left">
-            <div class="hero-badge">Featured</div>
-            <h1>Find the next sound for your project.</h1>
+            <div class="hero-badge">Now Playing</div>
+            <h1>Your beats, your way.</h1>
             <p>
-              Stream tagged demos for free, discover African producers, and buy
-              the commercial license you need when you're ready to release.
+              Stream unlimited African beats, support your favorite producers, and license what moves you.
             </p>
 
             <div class="hero-actions">
-              <a href="#discover" class="primary-btn">Browse Beats</a>
-              <a href="#licenses" class="ghost-btn">View Licenses</a>
+              <a href="#library" class="primary-btn">Start Listening</a>
+              <a href="#licenses" class="ghost-btn">Learn Licensing</a>
             </div>
 
             <div class="mini-stats">
@@ -90,8 +89,8 @@
                 <span></span><span></span><span></span><span></span><span></span>
               </div>
               <div class="now-playing-actions">
-                <a href="#library" class="ghost-btn small">Demo</a>
-                <a href="#licenses" class="primary-btn small">Buy License</a>
+                <a href="beat-detail.html" class="ghost-btn small">Details</a>
+                <a href="beat-detail.html" class="primary-btn small">$8 License</a>
               </div>
             </div>
           </div>
@@ -101,7 +100,7 @@
           <div class="section-head">
             <div>
               <span class="section-kicker">Discover</span>
-              <h3>For You</h3>
+              <h3>What's New</h3>
             </div>
             <div class="chip-row">
               <button class="chip active" type="button">All</button>
@@ -118,10 +117,10 @@
                 <div class="feature-cover cover-one"></div>
                 <div class="feature-meta">
                   <div>
-                    <div class="music-label">FEATURED MIX</div>
+                    <div class="music-label">TRENDING NOW</div>
                     <h4>City Drive</h4>
                   </div>
-                  <a href="#library" class="primary-btn small">Play</a>
+                  <a href="beat-detail.html" class="primary-btn small">▶ Play</a>
                 </div>
               </article>
 
@@ -129,17 +128,17 @@
                 <div class="feature-cover cover-two"></div>
                 <div class="feature-meta">
                   <div>
-                    <div class="music-label">NEW DROP</div>
+                    <div class="music-label">FRESH DROP</div>
                     <h4>Night Life</h4>
                   </div>
-                  <a href="#library" class="ghost-btn small">Preview</a>
+                  <a href="beat-detail.html" class="ghost-btn small">▶ Preview</a>
                 </div>
               </article>
             </div>
 
-            <aside class="trending-panel">
+            <aside class="trending-panel" id="trending">
               <div class="panel-head">
-                <span class="section-kicker">Trending</span>
+                <span class="section-kicker">Top Trending</span>
                 <a href="#library">See All</a>
               </div>
 
@@ -185,7 +184,7 @@
           <div class="section-head">
             <div>
               <span class="section-kicker">Library</span>
-              <h3>Fresh uploads</h3>
+              <h3>Latest Releases</h3>
             </div>
           </div>
 
@@ -201,8 +200,8 @@
                 <span>3:42</span>
               </div>
               <div class="beat-row-actions">
-                <a href="#discover" class="ghost-btn small">Preview</a>
-                <a href="beat-detail.html" class="primary-btn small">License</a>
+                <button class="play-dot">▶</button>
+                <a href="beat-detail.html" class="primary-btn small">$8</a>
               </div>
             </article>
 
@@ -217,8 +216,8 @@
                 <span>4:05</span>
               </div>
               <div class="beat-row-actions">
-                <a href="#discover" class="ghost-btn small">Preview</a>
-                <a href="beat-detail.html" class="primary-btn small">License</a>
+                <button class="play-dot">▶</button>
+                <a href="beat-detail.html" class="primary-btn small">$8</a>
               </div>
             </article>
 
@@ -233,8 +232,8 @@
                 <span>3:18</span>
               </div>
               <div class="beat-row-actions">
-                <a href="#discover" class="ghost-btn small">Preview</a>
-                <a href="beat-detail.html" class="primary-btn small">License</a>
+                <button class="play-dot">▶</button>
+                <a href="beat-detail.html" class="primary-btn small">$8</a>
               </div>
             </article>
 
@@ -249,18 +248,18 @@
                 <span>2:56</span>
               </div>
               <div class="beat-row-actions">
-                <a href="#discover" class="ghost-btn small">Preview</a>
-                <a href="beat-detail.html" class="primary-btn small">License</a>
+                <button class="play-dot">▶</button>
+                <a href="beat-detail.html" class="primary-btn small">$8</a>
               </div>
             </article>
           </div>
         </section>
 
-        <section class="producers-section" id="producers">
+        <section class="producers-section">
           <div class="section-head">
             <div>
               <span class="section-kicker">Producers</span>
-              <h3>Top creators</h3>
+              <h3>Featured Artists</h3>
             </div>
           </div>
 
@@ -275,6 +274,7 @@
                   <span>14 licenses</span>
                 </div>
               </div>
+              <a href="producer-dashboard.html" class="follow-btn">Follow</a>
             </article>
 
             <article class="producer-card">
@@ -287,6 +287,7 @@
                   <span>9 licenses</span>
                 </div>
               </div>
+              <a href="producer-dashboard.html" class="follow-btn">Follow</a>
             </article>
 
             <article class="producer-card">
@@ -299,6 +300,7 @@
                   <span>7 licenses</span>
                 </div>
               </div>
+              <a href="producer-dashboard.html" class="follow-btn">Follow</a>
             </article>
           </div>
         </section>
@@ -307,21 +309,24 @@
           <div class="section-head center">
             <div>
               <span class="section-kicker">Why Beat Vault</span>
-              <h3>Everything a creator needs</h3>
+              <h3>Stream • Support • License</h3>
             </div>
           </div>
           <div class="features-grid">
             <div class="feature-box">
-              <h4>Free demos</h4>
-              <p>Fans can stream and download tagged demos without paying, while producers still get exposure.</p>
+              <div class="feature-icon">🎧</div>
+              <h4>Free streaming</h4>
+              <p>Listen to unlimited demos. Support creators with every play.</p>
             </div>
             <div class="feature-box">
-              <h4>Clear licensing</h4>
-              <p>Every beat has a proper commercial path, so artists know exactly what they're buying.</p>
+              <div class="feature-icon">💰</div>
+              <h4>Just $8</h4>
+              <p>Cheapest commercial licensing on the platform. Unlimited rights.</p>
             </div>
             <div class="feature-box">
-              <h4>Creator payouts</h4>
-              <p>Producers keep a larger share of each sale, with the platform taking the agreed 5% commission.</p>
+              <div class="feature-icon">🚀</div>
+              <h4>Producer first</h4>
+              <p>Creators keep 95%. Direct support for African music makers.</p>
             </div>
           </div>
         </section>
@@ -330,43 +335,43 @@
           <div class="section-head center">
             <div>
               <span class="section-kicker">Licensing</span>
-              <h3>Affordable pricing for all artists</h3>
+              <h3>One price. All rights.</h3>
             </div>
           </div>
 
           <div class="pricing-grid">
             <div class="price-card">
-              <h4>Demo</h4>
-              <div class="price">Free</div>
+              <h4>Free Demo</h4>
+              <div class="price">$0</div>
               <ul>
-                <li>Tagged free download</li>
-                <li>Preview only</li>
-                <li>Not for commercial use</li>
+                <li>✓ Stream unlimited</li>
+                <li>✓ Download with watermark</li>
+                <li>✓ Personal use</li>
               </ul>
-              <a href="beat-detail.html" class="ghost-btn full">Download Demo</a>
+              <a href="beat-detail.html" class="ghost-btn full">Download</a>
             </div>
 
             <div class="price-card featured">
-              <div class="featured-pill">Best Value</div>
-              <h4>Unlimited</h4>
+              <div class="featured-pill">Most Popular</div>
+              <h4>Unlimited License</h4>
               <div class="price">$8</div>
               <ul>
-                <li>Commercial release rights</li>
-                <li>Global streaming use</li>
-                <li>Lifetime access</li>
+                <li>✓ Commercial rights</li>
+                <li>✓ Global streaming</li>
+                <li>✓ Lifetime access</li>
               </ul>
-              <a href="beat-detail.html" class="primary-btn full">Buy Unlimited</a>
+              <a href="beat-detail.html" class="primary-btn full">Buy Now</a>
             </div>
 
             <div class="price-card">
-              <h4>Bundle 5</h4>
+              <h4>Bundle Deal</h4>
               <div class="price">$30</div>
               <ul>
-                <li>5 beats for $30 each</li>
-                <li>Commercial rights</li>
-                <li>Best for artists</li>
+                <li>✓ 5 beats x $8 each</li>
+                <li>✓ All commercial rights</li>
+                <li>✓ Producer direct support</li>
               </ul>
-              <a href="beat-detail.html" class="ghost-btn full">Buy Bundle</a>
+              <a href="beat-detail.html" class="ghost-btn full">Get Bundle</a>
             </div>
           </div>
         </section>
@@ -385,12 +390,12 @@
           <div class="footer-links">
             <a href="#discover">Discover</a>
             <a href="#library">Library</a>
-            <a href="#producers">Producers</a>
+            <a href="#trending">Trending</a>
             <a href="#licenses">Licenses</a>
             <a href="upload.html">Upload</a>
           </div>
 
-          <div class="footer-note">© 2026 Beat Vault Afrika</div>
+          <div class="footer-note">© 2026 Beat Vault Afrika • Music for creators, by creators</div>
         </div>
       </footer>
     </div>
